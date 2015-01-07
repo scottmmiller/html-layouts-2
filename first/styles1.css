@@ -1,0 +1,94 @@
+* {
+	outline: 1px solid red;
+}
+
+html, body {
+	background: rgb(254, 254, 254);
+	height: 100%;
+}
+
+body {
+	padding: 10px;
+}
+
+header {
+	height: 10%;
+}
+
+.navbar {
+	height: 100%;
+	display: flex;
+/*	align-items: center;*/
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.box {
+	height: 100%;
+	width: 32%;
+}
+
+.red {
+	background: rgb(208, 2, 27);
+}
+
+.blue {
+	background: rgb(74, 144, 226);
+}
+
+.black {
+	background: rgb(74, 74, 74);
+}
+
+.main {
+/*	padding: 10px;
+*/	height: 30%;
+/*	min-height: 25%;*/
+	line-height: 20px;
+}
+
+p {
+	font-family: "Helvitica", sans-serif;
+	font-size: 12px;
+}
+
+.bottom {
+	padding-bottom: 10px;
+	height: 30%;
+}
+
+.bottom-red {
+	height: 100%;
+	width: 33%;
+	float: left;
+}
+
+.bottom-blue {
+	height: 100%;
+	width: 100%;
+}
+
+footer {
+	height: 10%;
+}
+
+.footer-bar {
+	background: rgb(74, 144, 226);
+}
+
+.fbox {
+	height: 100%;
+}
+
+.red-box {
+	width: 33%;
+	float: right;
+	position: relative;
+	z-index: 10;
+}
+
+.black-box {
+	width: 80%;
+	margin: 0 auto;
+	
+}
