@@ -1,0 +1,96 @@
+/** {
+	outline: 1px solid red;
+}*/
+
+html, body {
+	background: rgb(216, 216, 216);
+	height: 100%;
+	font-family: sans-serif;
+}
+
+.main {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+
+}
+
+.section1 {
+	background: rgb(255, 255, 255);
+	margin-top: 30px;
+	height: 33%;
+	width: 100%;
+	max-width: 500px;
+	max-height: 300px;
+	padding: 20px;
+}
+
+
+p {
+	font-size: 12px;
+
+}
+
+.click {
+	padding: 15px;
+	font-size: 18px;
+	color: #fff;
+	display: inline-block;
+	text-align: center;
+	box-sizing: content-box;
+}
+
+.redClick {
+	background: rgb(204, 10, 63);
+	height: 20px;
+	width: 60px;
+}
+
+.blueClick {
+	background: rgb(74, 144, 226);
+	height: 20px;
+	width: 60px;
+}
+
+
+
+.section2 {
+	background: rgb(255, 255, 255);
+	margin-top: 30px;
+	margin-bottom: 30px;
+	height: 33%;
+	width: 100%;
+	max-width: 500px;
+	padding: 20px;
+
+}
+
+.image {
+	background: url("http://www.horsebreedsinfo.com/images/brown_horse_running.jpg") center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 200px;
+	width: 100%;
+	display: block;
+}
+
+
+
+footer {
+	background: rgb(51, 51, 51);
+	height: 5%;
+}
+
+.ftext {
+	color: #fff;
+	padding: 10px;
+}
+
+.apple {
+	float: right;
+}
+
+.google {
+	float: right;
+	padding-right: 30px;
+}
